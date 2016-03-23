@@ -1,9 +1,9 @@
 #!/broad/software/free/Linux/redhat_5_x86_64/pkgs/r_2.11.0/bin/Rscript
-args <- commandArgs(TRUE)
+#args <- commandArgs(TRUE)
 R2_threshold <- 0.4
 
-file <- args[1]
-#file <-"locus7.chr2.rs10166942.txt"
+#file <- args[1]
+file <-"locus.txt"
 dat <- read.table(file=file, header=T)
 
 getCredibleSNP <- function(snp, logProb, threshold=0.99){

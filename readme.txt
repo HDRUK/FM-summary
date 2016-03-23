@@ -1,7 +1,7 @@
 ----------------------
 Copyright
 ----------------------
-Copyright (c) 2015, Hailiang Huang and Mark J Daly, Analytic and Translational Genetics Unit, Massachusetts General Hospital, Boston MA
+Copyright (c) 2016, Hailiang Huang, Padhraig Gormley and Mark J Daly, Analytic and Translational Genetics Unit, Massachusetts General Hospital, Boston MA
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -38,6 +38,8 @@ A simplified fine-mapping method that only requires summary statistics.  It only
 ----------------------
 Usage
 ----------------------
+open your R console
+use 'source("getCredible.r")' to run this program with the supplied toy data
 
 
 
